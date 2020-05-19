@@ -241,7 +241,7 @@ The weapons are integrated into the world, so make sure to explore Pyrean ruins,
 
 - _YOU_ for actually reading the readme. Thanks a ton!!
 - Lotus by erri120 - Repository template
-- Halgari and everyone the WJ Team - Wabbajack is awesome and so are you
+- Halgari and everyone the WJ Team - Wabbajack is awesome and so are they
 
 # Contact
 
