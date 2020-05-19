@@ -5,7 +5,7 @@
 
 ## 1.0.0: Initial Release
 
-**Released at**: `27.04.2020`
+**Released at**: `18.05.2020`
 
 **Info**:
 
