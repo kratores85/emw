@@ -61,17 +61,15 @@ I doubt you need to do this since you likely already have this installed. The pa
 
 #### Steam Config
 
+#### Install Enderal
+
+Enderal is it's own seperate entry in your Steam library.  You need to install it just like you would install Classic or Special Edition.  I recommend installing onto a SSD drive if one is available.
+
 ##### Disable the Steam Overlay
 
 The Steam Overlay can cause issues with ENB and is recommended to be turned off.
 
 Open the Properties window (right click the game in your Library->Properties), navigate to the _General_ tab and un-tick the _Enable the Steam Overlay while in-game_ checkbox.
-
-#### Change Steams Update Behavior
-
-SSE is still being updated by Bethesda (they only add Creation Club content). Whenever the game updates, the entire modding community goes silent for the next one or two weeks because some mods need to be updated to the latest game runtime version.
-
-To ensure that Steam does not automatically updates the game for you, head over to the Properties window, navigate to the _Updates_ tab and change _Automatic updates_ to _Only update this game when I launch it_. You should also disable the Steam Cloud while you're at it.
 
 #### Set the Game language to English
 
@@ -79,18 +77,19 @@ Just do it. This entire Modlist is in English and 99% of all mods you will find 
 
 Open the Steam Properties window, navigate to the _Language_ tab and select _English_ from the dropdown menu.
 
-#### Clean Skyrim
+#### Clean Enderal
 
-I highly recommend uninstalling the game through Steam, deleting the game folder and reinstalling it. You should also clean up the `Skyrim Special Edition` folder in `Documents/My Games/`.
+I highly recommend uninstalling the game through Steam, deleting the game folder and reinstalling it. You should also clean up the `Enderal` folder in `Documents/My Games/`.
 
-#### Start Skyrim
+#### Start Enderal
 
-After you have done everything above and got a clean SSE installation ready, start the Launcher and open the _Options_ menu.
+After you have done everything above and got a clean Enderal installation ready, start the Launcher and open the _Options_ menu.
 
-1. Click on _High_
+1. Click on _Settings_
+1. Click on _Common_
 2. Set the _Aspect Ratio_ and _Resolution_ to your monitor's native values
 3. Set _Antialiasing_ to _Off_
-4. Check _Windowed Mode_ and _Borderless_
+4. Select _Borderless Fullscreen_ from the dropdown
 
 Start the game and exit once you're in the main menu.
 
@@ -98,7 +97,7 @@ Start the game and exit once you're in the main menu.
 
 #### Preparations
 
-Let's get to the actual installation. Grab the latest release of TMO from [the release tab](https://github.com/jdsmith2816/emw/releases).
+Let's get to the actual installation. Grab the latest release of EMW from [the release tab](https://github.com/jdsmith2816/emw/releases).
 
 Download the release to a _working folder_. This folder **must not** be in a _common folders_ like your Desktop, Downloads or Program Files folder. It's best to create a Wabbajack folder near the root level of your drive like `C:/Wabbajack`.
 
@@ -134,9 +133,9 @@ Wabbajack will not work with a pirated version of the game. If you own the game 
 
 ### Copy Game Folder Files
 
-Download the latest ENB Series from [here](http://enbdev.com/download_mod_tesskyrimse.htm) and copy `d3d9.dll` and `enbhost.exe` from the WrapperVersion folder of the archive to your game folder.
+Download the latest ENB Series from [here](http://enbdev.com/download_mod_tesskyrim.htm) and copy `d3d9.dll` and `enbhost.exe` from the WrapperVersion folder of the archive to your game folder.
 
-Copy the all of the files from the `MO2/Game Folder Files` directory into your game folder.
+Inside of the folder that you chose to install EMW is a folder called `Game Folder Files`.  The _contents_ of this folder must be placed into the Enderal game directory.  If you chose to install EMW to `c:/MO2 - Enderal My Way` and your steam is located at `c:/steam` then the contents of `c:/MO2 - Enderal My Way/Game Folder Files/` would need to be copied into `c:/steam/steamapps/common/Enderal/` for instance. 
 
 ## In-Game MCM Options
 
@@ -156,10 +155,10 @@ Everything not listed below is already configured for you. Feel free to peruse t
 
 My Setup:
 
-- Ryzen 1700 running at 3GHz
+- Ryzen 3700x
 - 1080ti
 - 32GB DDR4-3200 RAM (CL 14)
-- Game and MO2 running on a Samsung 850 EVO SSD
+- Game and MO2 running on a Samsung 970 EVO Plus M.2 NVME SSD
 
 ### ENB: Vanilla Look ENB
 
@@ -167,7 +166,7 @@ My Setup:
 
 ### Tweaking the ENB
 
-This should always be the first thing you tweak. Disabling the ENB entirely can give you anything from 20 to >70 FPS. The ENB this Modlist comes with (see [ENB: Ominous](#enb-ominous)) is rather performance intensive. Open the ENB GUI using `Right Shift + Enter` (`Right Shift` is under the `Enter` key). This will open up the ENB GUI where you can enable and disable certain effects in the left panel.
+This should always be the first thing you tweak. Disabling and ENB entirely can give you anything from 5 to >70 FPS depending on what you're using. The ENB this Modlist comes with (see [ENB: Vanilla Look ENB](#enb-vanilla-look-enb)) is fairly lightweight already but it can still be toned down. Open the ENB GUI using `Right Shift + Enter` (`Right Shift` is under the `Enter` key). This will open up the ENB GUI where you can enable and disable certain effects in the left panel.
 
 - `Bloom`: Can give you up to 3 FPS, will make light sources less bright
 - `DepthOfField`: Can give you up to 10 FPS, disabled by default and not really suited for gameplay
