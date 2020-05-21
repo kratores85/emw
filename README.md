@@ -146,7 +146,16 @@ Everything not listed below is already configured for you. Feel free to peruse t
     Disable Horn, Elder Scroll, Azura Star and White Phial
 
 - Combat Gameplay Overhaul
+  - Unlocked Grip - Disable by setting hotkey to Esc
+  - Dodge Roll - Disable by changing to hotkey with Esc binding
+  - NPCs Dodge - Disable
   - Leaning and Camera noise - adjust to suit you rpreference
+  - Sweeping 2H Hitboxes - Disable
+  - NPCs Change Grip - Disable
+  - Stationary Speed Boost 0%
+  - Dual Wield Blocking - Choose a hotkey!
+  - Unlocked Movement - Disable all three choices
+  - Leaning - Customize to your liking; I like 25% 1st 75% third currently
   
 - Enderal Tools
   - Enderal comes with alot of crazy collectible quests... This can help you track them with quests if you want.
