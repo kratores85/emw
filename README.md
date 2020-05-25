@@ -6,11 +6,11 @@
     - [Pre-Installation](#pre-installation)
       - [Installing Microsoft Visual C++ Redistributable Package](#installing-microsoft-visual-c-redistributable-package)
       - [Steam Config](#steam-config)
+      - [Install Enderal](#install-enderal)
         - [Disable the Steam Overlay](#disable-the-steam-overlay)
-      - [Change Steams Update Behavior](#change-steams-update-behavior)
       - [Set the Game language to English](#set-the-game-language-to-english)
-      - [Clean Skyrim](#clean-skyrim)
-      - [Start Skyrim](#start-skyrim)
+      - [Clean Enderal](#clean-enderal)
+      - [Start Enderal](#start-enderal)
     - [Using Wabbajack](#using-wabbajack)
       - [Preparations](#preparations)
       - [Downloading and Installing](#downloading-and-installing)
@@ -36,7 +36,6 @@
 - [Contributing](#contributing)
 - [Changelog](#changelog)
 
-
 # Preamble
 
 ![emw-banner](extra/emw.png)
@@ -45,7 +44,7 @@ Enderal - My Way is a balanced but hardcore take on the Enderal game experience 
 
 Various bug fixes have been made and quality of life features have been included.
 
-The combat loop has been completely overhauled by Enderal Gameplay Overhaul and Combat Gameplay Overhaul.
+The combat loop has been completely overhauled by Enderal Gameplay Overhaul and Combat Gameplay Overhaul with further balancing done specifically for this list.
 
 Crossbows have been implemented to broaden the archery options available.
 
@@ -135,30 +134,72 @@ Wabbajack will not work with a pirated version of the game. If you own the game 
 
 Download the latest ENB Series from [here](http://enbdev.com/download_mod_tesskyrim.htm) and copy `d3d9.dll` and `enbhost.exe` from the WrapperVersion folder of the archive to your game folder.
 
-Inside of the folder that you chose to install EMW is a folder called `Game Folder Files`.  The _contents_ of this folder must be placed into the Enderal game directory.  If you chose to install EMW to `c:/MO2 - Enderal My Way` and your steam is located at `c:/steam` then the contents of `c:/MO2 - Enderal My Way/Game Folder Files/` would need to be copied into `c:/steam/steamapps/common/Enderal/` for instance. 
+Inside of the folder that you chose to install EMW is a folder called `Game Folder Files`.  The _contents_ of this folder must be placed into the Enderal game directory.  If you chose to install EMW to `c:/MO2 - Enderal My Way` and your steam is located at `c:/steam` then the contents of `c:/MO2 - Enderal My Way/Game Folder Files/` would need to be copied into `c:/steam/steamapps/common/Enderal/` for instance.
 
 ## In-Game MCM Options
 
-Everything not listed below is already configured for you. Feel free to peruse the settings and change them as you like.
+If an MCM page or a setting on an individual page is not listed then it is either already fully pre-configured by changes I have made or it does not need adjustment from it's default state.
+
+    Legend
+    [ ] - Unchecked checkbox
+    [x] - Checked checkbox
+    <Selected Option> - Dropdown with the `Selected Option` option selected
 
 - All Geared Up Derivative
-  - Misc
-    Disable Horn, Elder Scroll, Azura Star and White Phial
+  - Misc - Player
+    - Scroll - Disable
+    - Horn - Disable
+    - Elder Scroll - Disable
+    - White Phial - Disable
+    - Azura's Star - Disable
+  - NPC
+    - Horn - Disable
 
-- Combat Gameplay Overhaul
-  - Unlocked Grip - Disable by setting hotkey to Esc
-  - Dodge Roll - Disable by changing to hotkey with Esc binding
-  - NPCs Dodge - Disable
-  - Leaning and Camera noise - adjust to suit you rpreference
-  - Sweeping 2H Hitboxes - Disable
-  - NPCs Change Grip - Disable
-  - Stationary Speed Boost 0%
-  - Dual Wield Blocking - Choose a hotkey!
-  - Unlocked Movement - Disable all three choices
-  - Leaning - Customize to your liking; I like 25% 1st 75% third currently
-  
+- CGO
+  - Settings
+    - Unlocked Grip
+      - Input Type <HOTKEY(TAP)>
+      - Sweeping 2H Hitboxes [ ]
+      - NPCs Change Grip [ ]
+      - Stationary Speed Boost 0%
+    - Dual Wield Blocking
+      - Hotkey M3 (Whatever you prefer...)
+    - Unlocked Movement
+      - Power Attacks (1st Person) [ ]
+      - Power Attacks (3rd Person) [ ]
+      - Power Attacks (NPCs) [ ]
+    - Dodge Roll
+      - Input Type <HOTKEY(TAP)>
+      - NPCs Dodge [ ]
+    - Leaning ***(Customize as you see fit)***
+      - Lean Multiplier (1st Person) x0.50
+      - Lean Multiplier (3rd Person) x0.75
+    - Camera Noise - ***Customize as you see fit***
+      - Camera Noise Mult (1st Person) - 1.00
+
 - Enderal Tools
   - Enderal comes with alot of crazy collectible quests... This can help you track them with quests if you want.
+
+- Equipment HUD
+  - I find this tool to be extremely valuable for playing the game without having to dive into alot of mensu.  Everything in this section is optional and should be customized to your liking.
+  
+  - Cyclers
+    - Left-hand cycler 1 - C
+    - Power/shout cycler 1 - X
+    - Right-hand cycler 1 - V
+    - Add to cycler - + (plus)
+    - Remove from Cycler - - (minus)
+    - Shift cursor left - {
+    - Shift cursor right - }
+- Immersive HUD
+  - Activation
+    - iHUD hotkey - PgDn ***(Anything that's not X if using Equipment HUD)***
+- VioLens
+  - Melee & Ranged
+    - Melee
+      - Killmoves - Off
+    - Ranged
+      - Killmoves - Off
 
 ## Tweaking Performance
 
@@ -231,7 +272,7 @@ The weapons are integrated into the world, so make sure to explore Pyrean ruins,
 
 ## Quest and Encounter Mods
 
-[Disenchanted](https://www.nexusmods.com/enderal/mods/145) adds a quest in Riverville related to strange noises coming from the Old Tunnel near town. 
+[Disenchanted](https://www.nexusmods.com/enderal/mods/145) adds a quest in Riverville related to strange noises coming from the Old Tunnel near town.
 
 [Fire of the Mountain](https://www.nexusmods.com/enderal/mods/125)
 

@@ -1,9 +1,31 @@
 # Changelog
 
 - [Changelog](#changelog)
+  - [1.0.3: idk yet](#103-idk-yet)
   - [1.0.2: Visuals and bug fixes](#102-visuals-and-bug-fixes)
   - [1.0.1: Magic rebalance, new CGO and bug fixes](#101-magic-rebalance-new-cgo-and-bug-fixes)
   - [1.0.0: Initial Release](#100-initial-release)
+
+## 1.0.3: idk yet
+
+**Released at**: `TBD`
+
+**Info**:
+
+Coming soon...
+
+**Changes**:
+
+- Mods
+  - Added
+    - MiniMods Resting Place
+
+- Issues
+  - Fixed
+    - [Can't install v1.0.2 - Error with Kids of Enderal download](https://github.com/jdsmith2816/emw/issues/16)
+    - [Urns are missing textures](https://github.com/jdsmith2816/emw/issues/17)
+  - Won't Fix / Invalid / Duplicate
+    - [Adding 'Mortal Enemies' to modlist](https://github.com/jdsmith2816/emw/issues/15)
 
 ## 1.0.2: Visuals and bug fixes
 
@@ -149,7 +171,7 @@ updating and follow the DynDOLOD update procedure.
     - [Can't craft Flintstock pistols](https://github.com/jdsmith2816/emw/issues/9)
     - [Compass missing](https://github.com/jdsmith2816/emw/issues/8)
     - [Fast travel and other economy related issues.](https://github.com/jdsmith2816/emw/issues/13)
-    - [ranslation issues](https://github.com/jdsmith2816/emw/issues/14)
+    - [Translation issues](https://github.com/jdsmith2816/emw/issues/14)
 
 ## 1.0.1: Magic rebalance, new CGO and bug fixes
 
