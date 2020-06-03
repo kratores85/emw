@@ -1,31 +1,100 @@
 # Changelog
 
 - [Changelog](#changelog)
-  - [1.0.3: idk yet](#103-idk-yet)
+  - [1.0.3: Prettier Sets](#103-prettier-sets)
   - [1.0.2: Visuals and bug fixes](#102-visuals-and-bug-fixes)
   - [1.0.1: Magic rebalance, new CGO and bug fixes](#101-magic-rebalance-new-cgo-and-bug-fixes)
   - [1.0.0: Initial Release](#100-initial-release)
 
-## 1.0.3: idk yet
+## 1.0.3: Prettier Sets
 
-**Released at**: `TBD`
+**Released at**: `03-06-2020`
 
 **Info**:
 
-Coming soon...
+This update primarily focuses on making Enderal's unique armor sets look amazing.  Along the way
+many bugs were fixed, mage balance was tweaked again, Ultimate Combat was added to help with NPC
+AI and crossbows were removed.
+
+Note on the armor sets... They are designed to be worn as a set.  Mixing and matching them may
+result in visual anomalies such as wrist gaps and such.  A few of the sets have additional pieces
+that are required for them to look as intended and male/female have alternate helms in many cases.  
+
+If you are a male and go to a forge with the female helm in your inventory you can convert it to a
+male helm for free one time.  Other bits and bobs that might be needed to complete your set have
+similar conditions at the forge.  Any additional pieces beyond the originals give NO STATS, NO VALUE
+and cannot be enchanted; they exit only to visually complete your set.
+
+This update ***is*** save file safe if you perform a standard clean save procedure.  You may be ok
+without cleaning but... who knows.
 
 **Changes**:
 
 - Mods
   - Added
+    - 9204 Bless MD0101 by Team TAL
+    - 9204 BO HV0201M by Team TAL
+    - 9204 MBO 0016 by Team TAL
+    - 9204 MBO 0006 by Team TAL
+    - 9204 MBO 0010 by Team TAL
+    - 9204 MBO 0027 by Team TAL
+    - Apachii Divine Elegance Store - UUNP Bodyslides
+    - Bijin Skin
+    - BDO Complete Pack by Team TAL
+    - BDOR Gierach by Team TAL
+    - BDOR Mueburus by Team TAL
+    - Cute Eyes
+    - Deadly Trio
+    - DIMONIZED UNP Female Body
+    - DM BDOR Lemoria by Team TAL
+    - DM Bless HV0102 by Team TAL
+    - DM Bless MS0102 by Team TAL
+    - Edwarrs Spell Tome Books
+    - HDT Physics Extensions
+    - Hedge Mage Armor
+    - High Poly Head
+    - KS Hairdos - HDT Physics
+    - MAMMOTH.by.Kajuan
+    - Master of Beasts Armor
+    - MiniMods Cooking Place
     - MiniMods Resting Place
+    - NetImmerse Override
+    - NiOverride High Heels - NIOVHH Fixes
+    - Recolored Edwarr's spell tomes
+    - Restored Vatyr Variants
+    - Rudy ENB for Enderal WIP
+    - Rudy HQ - Enderal Mesh and Texture Fixes
+    - Sithis Armour and Blades
+    - Ultimate Combat
+    - Unplayable Faction Armors
+    - YY Mystic Knight
+  - Removed
+    - Animation Package
+    - Calia NPC Replacer
+    - CBBE
+    - Tribunal Masks
+    - Vanilla Look ENB
 
 - Issues
   - Fixed
+    - [AllGUD not functioning with certain races](https://github.com/jdsmith2816/emw/issues/31)
+    - [Animation glitch with bow bash](https://github.com/jdsmith2816/emw/issues/12)
+    - [Balance issue: Soul gem and Potion combiner in Marketplace House mod](https://github.com/jdsmith2816/emw/issues/28)
+    - [Balancing: 'Black Mage' set from katapump spell package](https://github.com/jdsmith2816/emw/issues/34)
     - [Can't install v1.0.2 - Error with Kids of Enderal download](https://github.com/jdsmith2816/emw/issues/16)
+    - [Dagger of Despair is invisible](https://github.com/jdsmith2816/emw/issues/4)
+    - [Displays in basement of the Marketplace house don't work properly](https://github.com/jdsmith2816/emw/issues/38)
+    - [Inconsistent perk "back" button language](https://github.com/jdsmith2816/emw/issues/27)
+    - [Minor graphical bug: Floating grass](https://github.com/jdsmith2816/emw/issues/30)
+    - [Trolls are too big to fit through some doorways](https://github.com/jdsmith2816/emw/issues/22)
+    - [Two handed blocking animation bugged](https://github.com/jdsmith2816/emw/issues/18)
     - [Urns are missing textures](https://github.com/jdsmith2816/emw/issues/17)
+    - [Wolf Blood and Chymicum not spawning](https://github.com/jdsmith2816/emw/issues/33)
+
   - Won't Fix / Invalid / Duplicate
     - [Adding 'Mortal Enemies' to modlist](https://github.com/jdsmith2816/emw/issues/15)
+    - [Adding 'Smart Cast' to modlist](https://github.com/jdsmith2816/emw/issues/11)
+    - [Graphical bug, weird water textures](https://github.com/jdsmith2816/emw/issues/26)
 
 ## 1.0.2: Visuals and bug fixes
 

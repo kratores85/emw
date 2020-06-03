@@ -3,30 +3,29 @@
 - [Enderal - My Way](#enderal---my-way)
 - [Preamble](#preamble)
 - [Installation](#installation)
-    - [Pre-Installation](#pre-installation)
-      - [Installing Microsoft Visual C++ Redistributable Package](#installing-microsoft-visual-c-redistributable-package)
-      - [Steam Config](#steam-config)
+  - [Pre-Installation](#pre-installation)
+    - [Installing Microsoft Visual C++ Redistributable Package](#installing-microsoft-visual-c-redistributable-package)
+    - [Steam Config](#steam-config)
       - [Install Enderal](#install-enderal)
-        - [Disable the Steam Overlay](#disable-the-steam-overlay)
+      - [Disable the Steam Overlay](#disable-the-steam-overlay)
       - [Set the Game language to English](#set-the-game-language-to-english)
-      - [Clean Enderal](#clean-enderal)
-      - [Start Enderal](#start-enderal)
-    - [Using Wabbajack](#using-wabbajack)
-      - [Preparations](#preparations)
-      - [Downloading and Installing](#downloading-and-installing)
-        - [Problems with Wabbajack](#problems-with-wabbajack)
+    - [Clean Enderal](#clean-enderal)
+    - [Start Enderal](#start-enderal)
+  - [Using Wabbajack](#using-wabbajack)
+    - [Preparations](#preparations)
+    - [Downloading and Installing](#downloading-and-installing)
+      - [Problems with Wabbajack](#problems-with-wabbajack)
   - [Post-Installation](#post-installation)
     - [Copy Game Folder Files](#copy-game-folder-files)
   - [In-Game MCM Options](#in-game-mcm-options)
   - [Tweaking Performance](#tweaking-performance)
-    - [ENB: Vanilla Look ENB](#enb-vanilla-look-enb)
+    - [ENB: Rudy for Enderal WIP](#enb-rudy-for-enderal-wip)
     - [Tweaking the ENB](#tweaking-the-enb)
     - [Tweaking the Game Settings](#tweaking-the-game-settings)
   - [Updating](#updating)
   - [Removing the Modlist](#removing-the-modlist)
 - [Noteworthy Mods](#noteworthy-mods)
   - [Combat - Melee](#combat---melee)
-  - [Combat - Archery](#combat---archery)
   - [Combat - Magic](#combat---magic)
   - [Quest and Encounter Mods](#quest-and-encounter-mods)
   - [Creatures](#creatures)
@@ -39,6 +38,7 @@
 # Preamble
 
 ![emw-banner](extra/emw.png)
+![build-status](https://img.shields.io/endpoint?label=Status&style=for-the-badge&url=https%3A%2F%2Fbuild.wabbajack.org%2Flists%2Fstatus%2Femw%2Fbadge.json)
 
 Enderal - My Way is a balanced but hardcore take on the Enderal game experience with upgraded environments, improved/replaced equippable appearances and better looking NPCs.
 
@@ -50,21 +50,21 @@ Crossbows have been implemented to broaden the archery options available.
 
 # Installation
 
-### Pre-Installation
+## Pre-Installation
 
 These steps are only needed if you install this Modlist for the first time. If you update the Modlist, jump straight to [Updating](#updating).
 
-#### Installing Microsoft Visual C++ Redistributable Package
+### Installing Microsoft Visual C++ Redistributable Package
 
 I doubt you need to do this since you likely already have this installed. The package is required for MO2 and you can download it from [Microsoft](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads). Download the x64 version under "Visual Studio 2015, 2017 and 2019". [Direct link](https://aka.ms/vs/16/release/vc_redist.x64.exe) if you can't find it.
 
-#### Steam Config
+### Steam Config
 
 #### Install Enderal
 
 Enderal is it's own seperate entry in your Steam library.  You need to install it just like you would install Classic or Special Edition.  I recommend installing onto a SSD drive if one is available.
 
-##### Disable the Steam Overlay
+#### Disable the Steam Overlay
 
 The Steam Overlay can cause issues with ENB and is recommended to be turned off.
 
@@ -76,11 +76,11 @@ Just do it. This entire Modlist is in English and 99% of all mods you will find 
 
 Open the Steam Properties window, navigate to the _Language_ tab and select _English_ from the dropdown menu.
 
-#### Clean Enderal
+### Clean Enderal
 
 I highly recommend uninstalling the game through Steam, deleting the game folder and reinstalling it. You should also clean up the `Enderal` folder in `Documents/My Games/`.
 
-#### Start Enderal
+### Start Enderal
 
 After you have done everything above and got a clean Enderal installation ready, start the Launcher and open the _Options_ menu.
 
@@ -92,27 +92,35 @@ After you have done everything above and got a clean Enderal installation ready,
 
 Start the game and exit once you're in the main menu.
 
-### Using Wabbajack
+## Using Wabbajack
 
-#### Preparations
+### Preparations
 
-Let's get to the actual installation. Grab the latest release of EMW from [the release tab](https://github.com/jdsmith2816/emw/releases).
+Grab the latest release of Wabbajack from [here](https://github.com/wabbajack-tools/wabbajack/releases) and place the `Wabbajack.exe` folder on the root of your drive such as `C:/Wabbajack`. This is your _working folder_ when the term is used again.
 
-Download the release to a _working folder_. This folder **must not** be in a _common folders_ like your Desktop, Downloads or Program Files folder. It's best to create a Wabbajack folder near the root level of your drive like `C:/Wabbajack`.
+Let's get to the actual installation. Grab the latest release of `Enderal - My Way` from [the release tab](https://github.com/jdsmith2816/emw/releases) or by running Wabbajack and selecting Browse Modlists.
 
-Grab the latest release of Wabbajack from [here](https://github.com/wabbajack-tools/wabbajack/releases) and place the `Wabbajack.exe` file in the _working folder_.
+If Downloading From Browse Modlists
 
-#### Downloading and Installing
+- After clicking Browse Modlists, scroll until you find `Enderal - My Way` and click the download modlist button, an arrow pointing down with a horizontal arrow. After downloading it will take you to a new screen to select `Download Location` and `Installation Location`.
+
+If Downloading From Release Tab
+
+- Download the release to a _working folder_. This folder **must not** be in a _common folder_ like your `Desktop`, `Downloads` or `Program Files` folder. It's best to create a Wabbajack folder near the root level of your drive like `C:/Wabbajack`.
+
+### Downloading and Installing
 
 The download and installation process can take a very long time depending on your system specs. Wabbajack will calculate the amount of threads it will use at the start of the installation. To have the highest amount of threads and thus the fastest speed, it is advised to have the working folder on an SSD.
 
 1. Open Wabbajack
-2. Load the Modlist from Disk
+2. Load the Modlist from Disk by clicking `Install From Disk`
 3. Adjust the download and installation paths
 4. Click the Go/Begin button
 5. Wait for Wabbajack to finish
 
-##### Problems with Wabbajack
+The `Installation Location` must NOT be your Skyrim folder. Your `Download Location` by default will be a folder inside your `Installation Location`. Using the same `Download Location` for multiple lists will help prevent downloading mods shared by the lists multiple times but is not necessary.
+
+#### Problems with Wabbajack
 
 There are a lot of different scenarios where Wabbajack will produce an error. I recommend re-running Wabbajack before posting anything. Wabbajack will continue where it left off so you loose no progress.
 
@@ -131,8 +139,6 @@ Wabbajack will not work with a pirated version of the game. If you own the game 
 ## Post-Installation
 
 ### Copy Game Folder Files
-
-Download the latest ENB Series from [here](http://enbdev.com/download_mod_tesskyrim.htm) and copy `d3d9.dll` and `enbhost.exe` from the WrapperVersion folder of the archive to your game folder.
 
 Inside of the folder that you chose to install EMW is a folder called `Game Folder Files`.  The _contents_ of this folder must be placed into the Enderal game directory.  If you chose to install EMW to `c:/MO2 - Enderal My Way` and your steam is located at `c:/steam` then the contents of `c:/MO2 - Enderal My Way/Game Folder Files/` would need to be copied into `c:/steam/steamapps/common/Enderal/` for instance.
 
@@ -191,15 +197,28 @@ If an MCM page or a setting on an individual page is not listed then it is eithe
     - Remove from Cycler - - (minus)
     - Shift cursor left - {
     - Shift cursor right - }
+
 - Immersive HUD
   - Activation
     - iHUD hotkey - PgDn ***(Anything that's not X if using Equipment HUD)***
-- VioLens
-  - Melee & Ranged
-    - Melee
-      - Killmoves - Off
-    - Ranged
-      - Killmoves - Off
+
+- Ultimate Combat
+  - General
+    - Timed Block
+      - Effective Time 0.00S
+    - Stagger
+      - Enemy Poise [ ]
+      - Player Stagger [ ]
+  - NPC Setting
+    - NPC
+      - Dodge LOW
+        - Step Dodge [X]
+      - Giant
+        - Max HP Scale MAXHP * 1.0
+      - Dwarven Centurions
+        - HP Mult HP*1.0
+      - Dragon Priest
+        - HP Mult HP*1.0
 
 ## Tweaking Performance
 
@@ -210,9 +229,9 @@ My Setup:
 - 32GB DDR4-3200 RAM (CL 14)
 - Game and MO2 running on a Samsung 970 EVO Plus M.2 NVME SSD
 
-### ENB: Vanilla Look ENB
+### ENB: Rudy for Enderal WIP
 
-[Vanilla Look ENB](https://www.nexusmods.com/enderal/mods/133) adds detailed shadows, ambient occlusion and enhanced water rendering without changing the intended look of the game. It also works with the game's Fade-to-black.
+Rudy for Enderal WIP is Work In Progress update to the Enderal version of [Rudy ENB](https://www.nexusmods.com/skyrim/mods/41482). Rudy ENB for Enderal greatly increases visual fidelity but also alters the look of the game significantly.  If you want something lighter weight that sticks more to the vanilla Enderal feel then investigate [Vanilla Look ENB](https://www.nexusmods.com/enderal/mods/133?tab=files)
 
 ### Tweaking the ENB
 
@@ -255,14 +274,7 @@ You can just remove the MO2 folder and be done with it. SKSE and ENB files will 
 
 [Combat Gameplay Overhaul](https://www.nexusmods.com/skyrim/mods/100904) adds several features and fixes to combat and movement. It has responsive dodge rolls, procedural leaning, grip changing, mid-air combat, striking with staffs, dual-wielding two-handed weapons, 1st & 3rd person weapon animations, and more.
 
-## Combat - Archery
-
-[A Gentleman's Flintlock Pistol Armoury](https://www.nexusmods.com/enderal/mods/101) adds twelve different flintlock pistols to the world of Enderal. There are six models, of which two have four variations each.
-The weapons are integrated into the world, so make sure to explore Pyrean ruins, and even the skeleton found the starting beach.... Most weapons have a crafting recipe as well, also found in the world.
-
-[Enderal Crossbows](https://www.nexusmods.com/skyrim/mods/95560) adds crossbows to Enderal.
-
-[Non-Exploitable Crossbow Reloading](https://www.nexusmods.com/skyrim/mods/94246) changes how crossbow reloading works in Enderal. No longer you will be forced to automatically reload after each shot and no longer will your crossbow reload itself when you put it away mid-reload. Now it's you who decide when it's time to pull the string.
+[Ultimate Combat](https://www.nexusmods.com/skyrim/mods/36006) is utilized for better enemy ai and localized damage for bows. All other features are disabled to allow EGO and CGO to shine.
 
 ## Combat - Magic
 
@@ -282,14 +294,35 @@ The weapons are integrated into the world, so make sure to explore Pyrean ruins,
 
 [Pets of Enderal](https://www.nexusmods.com/enderal/mods/77) adds... pets... to Enderal.
 
+[Restored Vatyr Variants](https://www.nexusmods.com/enderal/mods/152) restores the removed Vatyr variants.
+
 # FAQ
 
 - I'm a 21:9 resolution user and my screen looks weird
   - Search 21x9 in mod organizer and activate all of those mods.
+- I have weird gaps in my armor?!?
+  - The price we pay for amazing armor sets is that they are pretty much exclusive.  If you start mixing and matching them you will wind up with strange gaps and such.
+  - The helmets are gender based but only the females drop.  Take your set helmet to a forge and turn it into the male part at no cost if you need one.
+  - A few of the sets have additional pieces that are needed to round out their look.  These can be crafted at the forge for no cost.  They give no stats and cannot be enchanted.
+- I failed to download some files?!!?
+  - Download any failures manually and place in the downloads folder before continuing
+    - [9204 Bless MD0101](https://drive.google.com/uc?id=1NViMFoqkmVVRQA77vYj4NBDTho8gq8Ik&export=download)
+    - [9204 BO HV0201M](https://drive.google.com/uc?id=1zkI2xduR4tVX45NkZI3Pt_6X_UM5zRWe&export=download)
+    - [9204 MBO 0006](https://drive.google.com/uc?id=16AeP543vWxaSuX9aRTVfpGhYZQ_z5XTW&export=download)
+    - [9204 MBO 0010](https://drive.google.com/uc?id=1d5QuAHsX8np_k-cmNbOqrp-elyOoa7Hk&export=download)
+    - [9204 MBO 0016](https://drive.google.com/uc?id=1iMTi114vUM1XWvxseaIHIeK35CFDeW5y&export=download)
+    - [9204 MBO 0027](https://drive.google.com/uc?id=1TCePH7SsBu2kY3d77HaCFmCFw1ZQ9L1K&export=download)
+    - [BDO Complete Pack](https://mega.nz/file/cegTSARa#xJTZGpnoZR1DlJMXMIh7FpU8y0JOhWQuPqsIqLEzzwA)
+    - [DM BDOR Gierach](https://drive.google.com/uc?id=1sn6lFJEnpibT7twHjXUDu6CknTQD6V58&export=download)
+    - [DM BDOR Lemoria](https://drive.google.com/uc?id=1PCW3QlbkMt-ybH_KecY3r80QxpILqR-8&export=download)
+    - [DM BDOR Mueburus](https://drive.google.com/uc?id=1iy7AywzXE9FNI3eBB1p92fgW-dgF3Xm1&export=download)
+    - [DM Bless HV0102](https://drive.google.com/uc?id=1ndLb2pZA4tmNYEoUa-jS3YBc-SqZE12c&export=download)
+    - [DM Bless MS0102](https://drive.google.com/uc?id=1ouzM9Ie73h1AjWGCSFdqDe1-a8peZhjs&export=download)
 
 # Credits and Thanks
 
 - _YOU_ for actually reading the readme. Thanks a ton!!
+- Total for help with the Set overhaul and balance updates.
 - Lotus by erri120 - Repository template
 - Halgari and everyone the WJ Team - Wabbajack is awesome and so are they
 
