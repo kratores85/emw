@@ -220,6 +220,11 @@ If an MCM page or a setting on an individual page is not listed then it is eithe
       - Dragon Priest
         - HP Mult HP*1.0
 
+  - XPMSE
+    - Quiver Style
+      - PLAYER <FROSTFALL QUIVER (XP32)>
+      - NON-PLAYER <FROSTFALL QUIVER (XP32)>
+
 ## Tweaking Performance
 
 My Setup:

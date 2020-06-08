@@ -1,10 +1,37 @@
 # Changelog
 
 - [Changelog](#changelog)
+  - [1.0.4: Bug Fixes](#104-bug-fixes)
   - [1.0.3: Prettier Sets](#103-prettier-sets)
   - [1.0.2: Visuals and bug fixes](#102-visuals-and-bug-fixes)
   - [1.0.1: Magic rebalance, new CGO and bug fixes](#101-magic-rebalance-new-cgo-and-bug-fixes)
   - [1.0.0: Initial Release](#100-initial-release)
+
+## 1.0.4: Bug Fixes
+
+**Released at**: `04-06-2020`
+
+**Info**:
+
+Fixed most of the issues relating to the new set appearances and fixed the ENB situation.  Make sure to delete your `enbseries` folder from the Enderal game directory and then copy the contents of `Game Folder Files` again.
+
+**Changes**:
+
+- Mods - Added
+  - 360 Movement Behavior
+  - Amnesia Shrine
+  - HQ Puddles
+  - Rally's Instruments HQ
+  - Realistic Animation Project - Movement
+
+- Issues - Fixed
+  - [Quick Loot and Marketplace house cause CTD](https://github.com/jdsmith2816/emw/issues/36)
+  - [Quivers should be on belt](https://github.com/jdsmith2816/emw/issues/42)
+
+- Issues - Unable to Reproduce
+  - [Occasionally crashing in the Player Owned house in the Ark Marketplace.](https://github.com/jdsmith2816/emw/issues/10)
+  - [Starling and Order of the Righteous Path SHield have the same Armor rating](https://github.com/jdsmith2816/emw/issues/35)
+  - [Weird texture issue in ARK](https://github.com/jdsmith2816/emw/issues/24)
 
 ## 1.0.3: Prettier Sets
 
