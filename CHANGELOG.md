@@ -1,11 +1,49 @@
 # Changelog
 
 - [Changelog](#changelog)
+  - [1.0.5: Bug Fixes](#105-bug-fixes)
   - [1.0.4: Bug Fixes](#104-bug-fixes)
   - [1.0.3: Prettier Sets](#103-prettier-sets)
   - [1.0.2: Visuals and bug fixes](#102-visuals-and-bug-fixes)
   - [1.0.1: Magic rebalance, new CGO and bug fixes](#101-magic-rebalance-new-cgo-and-bug-fixes)
   - [1.0.0: Initial Release](#100-initial-release)
+
+## 1.0.5: Bug Fixes
+
+**Released at**: `16-06-2020`
+
+**Info**:
+
+Fixed more bugs and updated some of the vanilla tierred armor. Please doublecheck your MCM settings from the readme.  I adjusted Ultimate Combat settings for this release to address a stagger related bug.  In previous releases I adjusted the settings without mentioning it.
+
+I merged the magic balance and race patch into the main EMW patch... You can ignore the warning about missing plugins.  
+
+***Make sure to copy the game folder files again to get the updated enb binaries.***
+
+***This update is 100% save file safe.*** 
+
+**Changes**:
+
+- Mods - Added
+  - Run Sprint and Jump
+  - Vanilla Armor Replacer (Starling - Righteous Path - Rune - Aeterna)
+- Mods - Updated
+  - BDOR Pack
+  - ENBSeries
+  - Rudy ENB for ENDERAL Forgotten Stories
+
+- Issues - Fixed
+  - [Arcanist's Backpack: wrong carry capacity](https://github.com/jdsmith2816/emw/issues/58)
+  - [Effects of "Blessing of Life" tier 2 and 3 mixed up](https://github.com/jdsmith2816/emw/issues/54)
+  - [Gloves of Mysterious Nomad can be disenchanted](https://github.com/jdsmith2816/emw/issues/49)
+  - [Nimbus of the Mysterious Nomad still has (Set of the Mysterious Nomad) in the name](https://github.com/jdsmith2816/emw/issues/46)
+  - [Replace "Realistic Animation Project - Movement" with "Run Sprint and Jump"](https://github.com/jdsmith2816/emw/issues/57)
+  - [Soul Gem Merger doesnt use any skill, so still OP (in marketplace house)](https://github.com/jdsmith2816/emw/issues/48)
+  - [Suggestion: Balancing: Remove Fire/Frost/Shockshield spells introduced by Katapumb](https://github.com/jdsmith2816/emw/issues/52)
+  - [Ultimate Combat seems to break the stagger system](https://github.com/jdsmith2816/emw/issues/56)
+
+- Issues - Unable to Reproduce
+  - 
 
 ## 1.0.4: Bug Fixes
 

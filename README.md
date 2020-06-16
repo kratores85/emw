@@ -209,6 +209,8 @@ If an MCM page or a setting on an individual page is not listed then it is eithe
     - Stagger
       - Enemy Poise [ ]
       - Player Stagger [ ]
+      - NPC's Bow Poise *0.0
+      - Player's Bow Poise * 0.0
   - NPC Setting
     - NPC
       - Dodge LOW
@@ -323,6 +325,7 @@ You can just remove the MO2 folder and be done with it. SKSE and ENB files will 
     - [DM BDOR Mueburus](https://drive.google.com/uc?id=1iy7AywzXE9FNI3eBB1p92fgW-dgF3Xm1&export=download)
     - [DM Bless HV0102](https://drive.google.com/uc?id=1ndLb2pZA4tmNYEoUa-jS3YBc-SqZE12c&export=download)
     - [DM Bless MS0102](https://drive.google.com/uc?id=1ouzM9Ie73h1AjWGCSFdqDe1-a8peZhjs&export=download)
+    - [BDOR Pack](https://drive.google.com/uc?id=1jZAHOiBqZnSFbinpX-yPRmcwHS1D6b4s&export=download)
 
 # Credits and Thanks
 
