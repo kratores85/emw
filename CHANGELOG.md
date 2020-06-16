@@ -42,9 +42,6 @@ I merged the magic balance and race patch into the main EMW patch... You can ign
   - [Suggestion: Balancing: Remove Fire/Frost/Shockshield spells introduced by Katapumb](https://github.com/jdsmith2816/emw/issues/52)
   - [Ultimate Combat seems to break the stagger system](https://github.com/jdsmith2816/emw/issues/56)
 
-- Issues - Unable to Reproduce
-  - 
-
 ## 1.0.4: Bug Fixes
 
 **Released at**: `04-06-2020`
