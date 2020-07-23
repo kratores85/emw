@@ -1,12 +1,38 @@
 # Changelog
 
 - [Changelog](#changelog)
+  - [1.0.7: Fix Broken Installer](#107-fix-broken-installer)
   - [1.0.5: Bug Fixes](#105-bug-fixes)
   - [1.0.4: Bug Fixes](#104-bug-fixes)
   - [1.0.3: Prettier Sets](#103-prettier-sets)
   - [1.0.2: Visuals and bug fixes](#102-visuals-and-bug-fixes)
   - [1.0.1: Magic rebalance, new CGO and bug fixes](#101-magic-rebalance-new-cgo-and-bug-fixes)
   - [1.0.0: Initial Release](#100-initial-release)
+
+## 1.0.7: Fix Broken Installer
+
+**Released at**: `23-07-2020`
+
+**Info**:
+
+Update to fix broken installer.  Updated Dear Diary has prettier enderal specific ui pieces. Fixes possible nudity on Captain Rocio during opening scene.
+
+***Make sure to copy the game folder files again to get the updated enb binaries.***
+
+***This update is 100% save file safe.*** 
+
+**Changes**:
+
+- Mods - Added
+
+- Mods - Updated
+  - Dear Diary
+  - ENBSeries
+  - 
+
+- Issues - Fixed
+
+- Issues - Unable to Reproduce
 
 ## 1.0.5: Bug Fixes
 
@@ -27,6 +53,7 @@ I merged the magic balance and race patch into the main EMW patch... You can ign
 - Mods - Added
   - Run Sprint and Jump
   - Vanilla Armor Replacer (Starling - Righteous Path - Rune - Aeterna)
+
 - Mods - Updated
   - BDOR Pack
   - ENBSeries
