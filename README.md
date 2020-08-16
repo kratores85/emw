@@ -46,8 +46,6 @@ Various bug fixes have been made and quality of life features have been included
 
 The combat loop has been completely overhauled by Enderal Gameplay Overhaul and Combat Gameplay Overhaul with further balancing done specifically for this list.
 
-Crossbows have been implemented to broaden the archery options available.
-
 # Installation
 
 ## Pre-Installation
