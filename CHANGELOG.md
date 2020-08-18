@@ -1,6 +1,7 @@
 # Changelog
 
 - [Changelog](#changelog)
+  - [1.0.9: Minor Updates](#109-minor-updates)
   - [1.0.7: Fix Broken Installer](#107-fix-broken-installer)
   - [1.0.5: Bug Fixes](#105-bug-fixes)
   - [1.0.4: Bug Fixes](#104-bug-fixes)
@@ -8,6 +9,26 @@
   - [1.0.2: Visuals and bug fixes](#102-visuals-and-bug-fixes)
   - [1.0.1: Magic rebalance, new CGO and bug fixes](#101-magic-rebalance-new-cgo-and-bug-fixes)
   - [1.0.0: Initial Release](#100-initial-release)
+
+## 1.0.9: Minor Updates
+
+**Released at**: `18-08-2020`
+
+**Info**:
+
+Update to fix broken installer and some minor mod updates.
+
+***This update is 100% save file safe.*** 
+
+**Changes**:
+
+- Mods - Added
+  - Paper UI Sounds
+
+- Mods - Updated
+  - Dear Diary
+  - Cobb Bug Fixes
+  - Practical Armor Replacer
 
 ## 1.0.7: Fix Broken Installer
 
