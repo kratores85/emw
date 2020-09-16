@@ -1,6 +1,7 @@
 # Changelog
 
 - [Changelog](#changelog)
+  - [1.0.10: Minor Updates](#1010-minor-updates)
   - [1.0.9: Minor Updates](#109-minor-updates)
   - [1.0.7: Fix Broken Installer](#107-fix-broken-installer)
   - [1.0.5: Bug Fixes](#105-bug-fixes)
@@ -9,6 +10,47 @@
   - [1.0.2: Visuals and bug fixes](#102-visuals-and-bug-fixes)
   - [1.0.1: Magic rebalance, new CGO and bug fixes](#101-magic-rebalance-new-cgo-and-bug-fixes)
   - [1.0.0: Initial Release](#100-initial-release)
+
+## 1.0.10: Minor Updates
+
+**Released at**: `15-09-2020`
+
+**Info**:
+
+Improved performance due to ini change suggestions from kratore.. Thanks!  
+Various bug fixes and a few mods updated/added.
+
+This update is ***SAFE*** for your existing save file.
+
+***Before installing the update you need to remove everything from your secure chests or risk losing it all.***
+
+**Changes**:
+
+- Mods - Added
+  - Auto Hide Ammo
+  - Sometimes Pick Up Books
+  - Waterspouts
+
+- Mods - Removed
+  - Detect Dead
+  - Disenchanted
+
+- Mods - Updated
+  - Enderal Gameplay Overhaul
+  - Enhanced Ore Veins
+  - High Poly Head
+  - Official EGO Patches
+  - Paper UI Sounds
+
+- Issues - Fixed
+  - [Arcanist blueprints (robes, gauntlets, boots)](https://github.com/jdsmith2816/emw/issues/68)
+  - [Fix BethINI ini direction path](https://github.com/jdsmith2816/emw/issues/67)
+  - [Please add "Auto Equip Ammo"](https://github.com/jdsmith2816/emw/issues/61)
+  - [Please add "Sometimes Pick Up Books"](https://github.com/jdsmith2816/emw/issues/64)
+
+- Issues - Won't Fix
+  - [Please add "D13 Faster Get up Stand up animation"](https://github.com/jdsmith2816/emw/issues/65)
+  - [Please add "Wildcat" (just Injuries-mechanics)](https://github.com/jdsmith2816/emw/issues/63)
 
 ## 1.0.9: Minor Updates
 
@@ -24,6 +66,9 @@ Update to fix broken installer and some minor mod updates.
 
 - Mods - Added
   - Paper UI Sounds
+
+- Mods - Removed
+  - Undiscovered Means Unknown
 
 - Mods - Updated
   - Dear Diary
