@@ -37,7 +37,7 @@
 
 # Preamble
 
-![emw-banner](extra/emw.png)
+![emw-banner](extra/emw.jpg)
 ![build-status](https://img.shields.io/endpoint?label=Status&style=for-the-badge&url=https%3A%2F%2Fbuild.wabbajack.org%2Flists%2Fstatus%2Femw%2Fbadge.json)
 
 Enderal - My Way is a balanced but hardcore take on the Enderal game experience with upgraded environments, improved/replaced equippable appearances and better looking NPCs.
