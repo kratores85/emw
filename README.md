@@ -323,7 +323,7 @@ You can just remove the MO2 folder and be done with it. SKSE and ENB files will 
     - [DM BDOR Mueburus](https://drive.google.com/uc?id=1iy7AywzXE9FNI3eBB1p92fgW-dgF3Xm1&export=download)
     - [DM Bless HV0102](https://drive.google.com/uc?id=1ndLb2pZA4tmNYEoUa-jS3YBc-SqZE12c&export=download)
     - [DM Bless MS0102](https://drive.google.com/uc?id=1ouzM9Ie73h1AjWGCSFdqDe1-a8peZhjs&export=download)
-    - [BDOR Pack](https://drive.google.com/uc?id=1jZAHOiBqZnSFbinpX-yPRmcwHS1D6b4s&export=download)
+    - [BDOR Pack](https://drive.google.com/uc?id=1Ovcl7gJKoQMcuw3R58-aFBZv4Y3Eu4mJ&export=download)
 
 # Credits and Thanks
 
