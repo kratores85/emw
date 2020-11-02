@@ -1,6 +1,7 @@
 # Changelog
 
 - [Changelog](#changelog)
+  - [1.0.11: Moar Minor Updates](#1011-moar-minor-updates)
   - [1.0.10: Minor Updates](#1010-minor-updates)
   - [1.0.9: Minor Updates](#109-minor-updates)
   - [1.0.7: Fix Broken Installer](#107-fix-broken-installer)
@@ -10,6 +11,72 @@
   - [1.0.2: Visuals and bug fixes](#102-visuals-and-bug-fixes)
   - [1.0.1: Magic rebalance, new CGO and bug fixes](#101-magic-rebalance-new-cgo-and-bug-fixes)
   - [1.0.0: Initial Release](#100-initial-release)
+
+## 1.0.11: Moar Minor Updates
+
+**Released at**: `31-10-2020`
+
+**Info**:
+
+Various bug fixes and a few mods updated/added.
+
+This update is ***SAFE*** for your existing save file.
+
+**Changes**:
+
+- Mods - Added
+  - Blind Miner's Axe Replacer
+  - Enderal Apothekarii Monastery
+  - Enderal Outposts
+  - GIST - Genuinely Intelligent Soul Trap
+  - Jail of Riverville
+  - Official EGO Content Addons
+  - Sting of the Blue Islands Replacer
+  - Tharael's Blades Replacer
+  - Unique Enderal Uniques
+  - Yero's Cave Full
+
+- Mods - Removed
+  - Disenchanted
+
+- Mods - Updated
+  - DynDOLOD
+  - DynDOLOD Resources
+  - Enderal Gameplay Overhaul
+  - Enderal Gameplay Overhaul Patches
+  - Enhanced Ore Veins
+  - Practical Armor Replacers
+  - Refracting Ice Form Debris
+  - Rudy ENB for ENDERAL Forgotten Stories
+
+- Issues - Fixed
+  - [Add GIST](https://github.com/jdsmith2816/emw/issues/72)
+  - [Enhanced Ore Veins](https://github.com/jdsmith2816/emw/issues/98)
+  - [Enhanced Ore Veins - unable to download](https://github.com/jdsmith2816/emw/issues/79)
+  - [Fix broken installer](https://github.com/jdsmith2816/emw/issues/75)
+  - [Hashing Error on Enhanced Ore Veins](https://github.com/jdsmith2816/emw/issues/100)
+  - ["Lb" sprint won't work (PC controller xbox)](https://github.com/jdsmith2816/emw/issues/69)
+  - [Please add EGO compatibility patches](https://github.com/jdsmith2816/emw/issues/91)
+  - [Remove "Magic Cow" Loadscreens from DynDOLOD](https://github.com/jdsmith2816/emw/issues/73)
+  - [Tracker Cloak and Garb of the Keeper use 2 different slots](https://github.com/jdsmith2816/emw/issues/47)
+  - [Wabbajack Installation fail](https://github.com/jdsmith2816/emw/issues/86)
+
+- Issues - Invalid
+  - [Equipment HUD - Shields getting unequipped when using Cycler](https://github.com/jdsmith2816/emw/issues/94)
+  - [Graphical Glitch: Colored vertical (high)lighting (random) / ENB fade-out?](https://github.com/jdsmith2816/emw/issues/83)
+  - [Option for Headgear toggle on Player, NPC's, Dolls](https://github.com/jdsmith2816/emw/issues/90)
+  - [Reduce Mana Cost for "Send Items Home" Spell](https://github.com/jdsmith2816/emw/issues/74)
+  - [Secure chest disappeared after update](https://github.com/jdsmith2816/emw/issues/84)
+  - [Set of the Tracker - Chest part: Two item ID's / wrong Armor model](https://github.com/jdsmith2816/emw/issues/89)
+  - [Veil of the Ash Warrior clipping through head](https://github.com/jdsmith2816/emw/issues/88)
+
+- Issues - Won't Fix
+  - [Please add "Difficult archery" and "Proper Aiming"](https://github.com/jdsmith2816/emw/issues/66)
+  - [Please add "Mortal Enemies - Vatyr's Fleeing fixed version"](https://github.com/jdsmith2816/emw/issues/92)
+  - [Please add "Realistic Humanoid Movement Speed" + Horse Speed #compatible](https://github.com/jdsmith2816/emw/issues/97)
+  - [Remove EGO Patches](https://github.com/jdsmith2816/emw/issues/77)
+  - [Set boni don't get dded when equipping Setarmor directly from a container!](https://github.com/jdsmith2816/emw/issues/99)
+
 
 ## 1.0.10: Minor Updates
 

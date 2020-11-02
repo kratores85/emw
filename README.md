@@ -19,7 +19,7 @@
     - [Copy Game Folder Files](#copy-game-folder-files)
   - [In-Game MCM Options](#in-game-mcm-options)
   - [Tweaking Performance](#tweaking-performance)
-    - [ENB: Rudy for Enderal WIP](#enb-rudy-for-enderal-wip)
+    - [ENB: Rudy ENB for ENDERAL Forgotten Stories](#enb-rudy-enb-for-enderal-forgotten-stories)
     - [Tweaking the ENB](#tweaking-the-enb)
     - [Tweaking the Game Settings](#tweaking-the-game-settings)
   - [Updating](#updating)
@@ -37,7 +37,7 @@
 
 # Preamble
 
-![emw-banner](extra/emw.jpg)
+![emw-banner](extra/emw.png)
 ![build-status](https://img.shields.io/endpoint?label=Status&style=for-the-badge&url=https%3A%2F%2Fbuild.wabbajack.org%2Flists%2Fstatus%2Femw%2Fbadge.json)
 
 Enderal - My Way is a balanced but hardcore take on the Enderal game experience with upgraded environments, improved/replaced equippable appearances and better looking NPCs.
@@ -208,7 +208,9 @@ If an MCM page or a setting on an individual page is not listed then it is eithe
       - Enemy Poise [ ]
       - Player Stagger [ ]
       - NPC's Bow Poise *0.0
-      - Player's Bow Poise * 0.0
+      - Player's Bow Poise *0.0
+    - Locational Damage
+      - HEadshot Damage Mult *0.0
   - NPC Setting
     - NPC
       - Dodge LOW
@@ -234,13 +236,13 @@ My Setup:
 - 32GB DDR4-3200 RAM (CL 14)
 - Game and MO2 running on a Samsung 970 EVO Plus M.2 NVME SSD
 
-### ENB: Rudy for Enderal WIP
+### ENB: Rudy ENB for ENDERAL Forgotten Stories
 
-Rudy for Enderal WIP is Work In Progress update to the Enderal version of [Rudy ENB](https://www.nexusmods.com/skyrim/mods/41482). Rudy ENB for Enderal greatly increases visual fidelity but also alters the look of the game significantly.  If you want something lighter weight that sticks more to the vanilla Enderal feel then investigate [Vanilla Look ENB](https://www.nexusmods.com/enderal/mods/133?tab=files)
+Rudy ENB for Enderal greatly increases visual fidelity but also alters the look of the game significantly.  If you want something lighter weight that sticks more to the vanilla Enderal feel then investigate [Vanilla Look ENB](https://www.nexusmods.com/enderal/mods/133?tab=files)
 
 ### Tweaking the ENB
 
-This should always be the first thing you tweak. Disabling and ENB entirely can give you anything from 5 to >70 FPS depending on what you're using. The ENB this Modlist comes with (see [ENB: Rudy for Enderal WIP](#enb-rudy-for-enderal-wip)) is fairly intensivebut it can be toned down. Open the ENB GUI using `Right Shift + Enter` (`Right Shift` is under the `Enter` key). This will open up the ENB GUI where you can enable and disable certain effects in the left panel.
+This should always be the first thing you tweak. Disabling an ENB entirely can give you anything from 5 to >70 FPS depending on what you're using. The ENB this Modlist comes with (see [ENB: Rudy ENB for ENDERAL Forgotten Stories](#enb-rudy-enb-for-enderal-forgotten-stories)) is fairly intensive but it can be toned down. Open the ENB GUI using `Right Shift + Enter` (`Right Shift` is under the `Enter` key). This will open up the ENB GUI where you can enable and disable certain effects in the left panel.
 
 - `Bloom`: Can give you up to 3 FPS, will make light sources less bright
 - `DepthOfField`: Can give you up to 10 FPS, disabled by default and not really suited for gameplay
@@ -283,15 +285,21 @@ You can just remove the MO2 folder and be done with it. SKSE and ENB files will 
 
 ## Combat - Magic
 
-[ENDERAL - KataPUMB Spell Package](https://www.nexusmods.com/skyrim/mods/96908) adds forty New Spells, two new armor sets and books made like shields.
+[ENDERAL - KataPUMB Spell Package](https://www.nexusmods.com/skyrim/mods/96908) adds forty New Spells.
 
 [The Forbidden Arts](https://www.nexusmods.com/enderal/mods/105) seeks to add more depth and complexity to Necromancy in Enderal. It prevents reanimated thralls from turning to ashpiles upon death, adds a new perk that extends the duration of reanimation spells, gives you the ability to interact and customize your reanimated thralls, teaches a new spell to summon them and more.
 
 ## Quest and Encounter Mods
 
-[Disenchanted](https://www.nexusmods.com/enderal/mods/145) adds a quest in Riverville related to strange noises coming from the Old Tunnel near town.
+[Enderal Apothekarii Monastery](https://www.nexusmods.com/enderal/mods/167) adds the Apothekarii Monastery to the game. In its core a new location / dungeon mod. Unique rewards for exploration included.
+
+[Enderal Outposts](https://www.nexusmods.com/enderal/mods/184) edits some locations into Order Guard Outposts. NPC dialog suggest there should be some.
 
 [Fire of the Mountain](https://www.nexusmods.com/enderal/mods/125)
+
+[The Jail of Riverville](https://www.nexusmods.com/enderal/mods/154) expands upon the Riverville jail by adding a watchtower, a secret exit and more.
+
+[Yero's Cave Full](https://www.nexusmods.com/enderal/mods/115) changes the side quest dungeon 'Yero's secret cave' so it isn't only partially accessible. Normally this dungeon is full of invisible walls as in the back there are holes in the ground. These issues have been fixed.
 
 ## Creatures
 
@@ -305,6 +313,8 @@ You can just remove the MO2 folder and be done with it. SKSE and ENB files will 
 
 - I'm a 21:9 resolution user and my screen looks weird
   - Search 21x9 in mod organizer and activate all of those mods.
+- I have strange clipping face parts in character creation.
+  - This list includes High Poly Head.  Either choose non-hph faceparts or change the "Face Part" slider to 3.
 - I have weird gaps in my armor?!?
   - The price we pay for amazing armor sets is that they are pretty much exclusive.  If you start mixing and matching them you will wind up with strange gaps and such.
   - The helmets are gender based but only the females drop.  Take your set helmet to a forge and turn it into the male part at no cost if you need one.
