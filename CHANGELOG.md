@@ -1,6 +1,7 @@
 # Changelog
 
 - [Changelog](#changelog)
+  - [2.0: Welcome to the Special Edition](#20-welcome-to-the-special-edition)
   - [1.0.11: Moar Minor Updates](#1011-moar-minor-updates)
   - [1.0.10: Minor Updates](#1010-minor-updates)
   - [1.0.9: Minor Updates](#109-minor-updates)
@@ -12,9 +13,18 @@
   - [1.0.1: Magic rebalance, new CGO and bug fixes](#101-magic-rebalance-new-cgo-and-bug-fixes)
   - [1.0.0: Initial Release](#100-initial-release)
 
+## 2.0: Welcome to the Special Edition
+
+**Released at**: `24-02-2020`
+
+**Info**:
+
+This release is a complete recreation of `Enderal - My Way` for the recently released `Special Edition` port of `Enderal`.  I did not keep a detailed changelog for this release but nearly everything is different except for the core gameplay overhaul EGO.
+
+***This is obviously not savefile safe.***  Do ***not*** update if you are planning to continue playing your current character.
 ## 1.0.11: Moar Minor Updates
 
-**Released at**: `31-10-2020`
+**Released at**: `02-11-2020`
 
 **Info**:
 
