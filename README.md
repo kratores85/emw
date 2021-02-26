@@ -17,6 +17,7 @@
       - [Problems with Wabbajack](#problems-with-wabbajack)
   - [Post-Installation](#post-installation)
     - [Copy Game Folder Files](#copy-game-folder-files)
+    - [Launch EMW](#launch-emw)
   - [In-Game MCM Options](#in-game-mcm-options)
   - [Tweaking Performance](#tweaking-performance)
     - [ENB: Mythical Rudy ENB + Velvet Reshade](#enb-mythical-rudy-enb--velvet-reshade)
@@ -139,8 +140,14 @@ Wabbajack will not work with a pirated version of the game. If you own the game 
 
 ### Copy Game Folder Files
 
-Copy the all of the files from the Game Folder Files directory inside where you installed `Enderal - My Way` into your game folder. If you see `skse64_loader.exe` in the folder, you're in the right spot.
+Locate the directory named Game Folder Files that is inside your Enderal install directory.  Copy the contents of this folder to your Skyrim installation directory which contains Skyrim.exe.
 
+### Launch EMW
+
+1. Open the installation folder and launch the `ModOrganizer.exe` executable
+1. Locate the dropdown box on the top right of the newly opened application.
+1. Ensure that `EMW - Push Run To Play` is selected.
+1. Press the `Run` button.
 ## In-Game MCM Options
 
 If an MCM page or a setting on an individual page is not listed then it is either already fully pre-configured by changes I have made or it does not need adjustment from it's default state.
