@@ -1,6 +1,10 @@
 # Changelog
 
 - [Changelog](#changelog)
+  - [2.0.1: You Should Update! Fixes game breaking bug](#201-you-should-update-fixes-game-breaking-bug)
+    - [Mods Removed](#mods-removed)
+    - [Mods Updated](#mods-updated)
+    - [Other Changes](#other-changes)
   - [2.0: Welcome to the Special Edition](#20-welcome-to-the-special-edition)
   - [1.0.11: Moar Minor Updates](#1011-moar-minor-updates)
   - [1.0.10: Minor Updates](#1010-minor-updates)
@@ -12,6 +16,25 @@
   - [1.0.2: Visuals and bug fixes](#102-visuals-and-bug-fixes)
   - [1.0.1: Magic rebalance, new CGO and bug fixes](#101-magic-rebalance-new-cgo-and-bug-fixes)
   - [1.0.0: Initial Release](#100-initial-release)
+
+
+## 2.0.1: You Should Update! Fixes game breaking bug
+
+If you were stuck at the starling locks in the cave underneath Yeero's house then update and load a save from before entering the trap door.  If you do not have a save from before entering the trap door you may need to clean the `_00e_mq02_secretleversscn` script from your save.
+
+### Mods Removed
+
+- Enderal Tracking Tool - Starling Lock Tweak [1.71](28 MISCELLANEOUS)
+
+### Mods Updated
+
+- Amnesia Shrine [3.4](11 VANILLA LOCATIONS)
+- Enderal SE [2.1](00 BASE GAME)
+- Spell Perk Item Distributor [4.3](34 UTILITIES)
+
+### Other Changes
+
+- Regenerated ALLGUD meshes
 
 ## 2.0: Welcome to the Special Edition
 
