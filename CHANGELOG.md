@@ -1,10 +1,14 @@
 # Changelog
 
 - [Changelog](#changelog)
-  - [2.0.1: You Should Update! Fixes game breaking bug](#201-you-should-update-fixes-game-breaking-bug)
+  - [2.0.2: Minor Updates; Savefile Safe](#202-minor-updates-savefile-safe)
+    - [Mods Added](#mods-added)
     - [Mods Removed](#mods-removed)
-    - [Mods Updated](#mods-updated)
     - [Other Changes](#other-changes)
+  - [2.0.1: You Should Update! Fixes game breaking bug](#201-you-should-update-fixes-game-breaking-bug)
+    - [Mods Removed](#mods-removed-1)
+    - [Mods Updated](#mods-updated)
+    - [Other Changes](#other-changes-1)
   - [2.0: Welcome to the Special Edition](#20-welcome-to-the-special-edition)
   - [1.0.11: Moar Minor Updates](#1011-moar-minor-updates)
   - [1.0.10: Minor Updates](#1010-minor-updates)
@@ -17,6 +21,23 @@
   - [1.0.1: Magic rebalance, new CGO and bug fixes](#101-magic-rebalance-new-cgo-and-bug-fixes)
   - [1.0.0: Initial Release](#100-initial-release)
 
+## 2.0.2: Minor Updates; Savefile Safe
+
+If you had anything stored in the 'Secure Chest' containers included in the newly added housing on the Sun Coast you should remove everything before you update.  Failure to do so will result in loss of the contents.
+
+I did not notice the addition of the Secure Chest containers previously but EGO removes the vanilla ones so... removal of these just makes sense.  Additionally, without the vanilla ones in place the functionality of a Secure Chest (Cloud Storage) is basically useless.
+
+### Mods Added
+
+- Rally's Smithy [1.1](17 CLUTTER)
+
+### Mods Removed
+
+- Player Weapons Enchantment OnLoad Init Apply Fix [1.3](02 FIXES)
+
+### Other Changes
+
+- Removed unintentionaly added `Secure Chest` containers.
 
 ## 2.0.1: You Should Update! Fixes game breaking bug
 
