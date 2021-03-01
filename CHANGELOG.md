@@ -1,13 +1,17 @@
 # Changelog
 
 - [Changelog](#changelog)
-  - [2.0.2: Minor Updates; Savefile Safe](#202-minor-updates-savefile-safe)
+  - [2.0.3: Visual Update; Savefile Safe](#203-visual-update-savefile-safe)
     - [Mods Added](#mods-added)
     - [Mods Removed](#mods-removed)
+    - [Mods Updated](#mods-updated)
+  - [2.0.2: Minor Updates; Savefile Safe](#202-minor-updates-savefile-safe)
+    - [Mods Added](#mods-added-1)
+    - [Mods Removed](#mods-removed-1)
     - [Other Changes](#other-changes)
   - [2.0.1: You Should Update! Fixes game breaking bug](#201-you-should-update-fixes-game-breaking-bug)
-    - [Mods Removed](#mods-removed-1)
-    - [Mods Updated](#mods-updated)
+    - [Mods Removed](#mods-removed-2)
+    - [Mods Updated](#mods-updated-1)
     - [Other Changes](#other-changes-1)
   - [2.0: Welcome to the Special Edition](#20-welcome-to-the-special-edition)
   - [1.0.11: Moar Minor Updates](#1011-moar-minor-updates)
@@ -20,6 +24,28 @@
   - [1.0.2: Visuals and bug fixes](#102-visuals-and-bug-fixes)
   - [1.0.1: Magic rebalance, new CGO and bug fixes](#101-magic-rebalance-new-cgo-and-bug-fixes)
   - [1.0.0: Initial Release](#100-initial-release)
+
+## 2.0.3: Visual Update; Savefile Safe
+
+If you were using any of the circlets from Circlets Forged they will be gone after you update.  The mod was removed because it didn't come with blueprints and I didn't feel like making blueprints for all the newly added circlets.  This may be re-added in the future when I'm not feeling so lazy.
+
+Mythical Rudy ENB was replaced due to issues with interior lighting.  The new ENB is better in nearly all interiors and weathers and retains support for fadetoblack and other AGCC based effects.  This will probably be the long-term ENB of choice unless a superior ENB customized for Enderal SE is released.
+### Mods Added
+
+- Faster Reanimation [1.0](33 SKELETON & ANIMATIONS)
+- Pi-CHO ENB For NLA Weather Plugin Editon [0.99beta]
+
+### Mods Removed
+
+- Circlets Forged [1.0](29 NEW GEAR)
+- Mythical Rudy ENB [1.0]
+
+### Mods Updated
+
+- Classic Paralysis [3.0](28 MISCELLANEOUS)
+- Enderal SE [2.2](00 BASE GAME)
+- Faster Reanimation [1.1](33 SKELETON & ANIMATIONS)
+- Project Clarity - Effects Textures Redone [2.3](05 GRAPHICS BASELINE)
 
 ## 2.0.2: Minor Updates; Savefile Safe
 
