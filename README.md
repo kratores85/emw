@@ -165,7 +165,7 @@ My Setup:
 - 32GB DDR4-3200 RAM (CL 14)
 - Game and MO2 running on a Samsung 970 EVO Plus M.2 NVME SSD
 
-### ENB: Mythical Rudy ENB + Velvet Reshade
+### ENB: PI-CHO ENB + Velvet Reshade
 
 Enderal SE does not currently have any dedicated ENB offerings but this combo feels rather nice in most situations.  ENB is all personal choice; feel free to customize as you wish.
 
