@@ -34,6 +34,7 @@ In order for the ENB update to apply you need to delete the `enbseries` folder f
 - Simply Excellent Ebony Armor [1.0](19 APPAREL & WEAPONS)
 - Simply Rustic Iron Weapons [1.0](19 APPAREL & WEAPONS)
 - Simply Stylish Steel Weapons [1.0](19 APPAREL & WEAPONS)
+- (Optional) Enderal SE - Steam Time Tracking and Achievements [2.0.4](00 BASE GAME)
   
 ### Mods Updated
 
