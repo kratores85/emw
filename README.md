@@ -145,9 +145,11 @@ Locate the directory named Game Folder Files that is inside your Enderal install
 ### Launch EMW
 
 1. Open the installation folder and launch the `ModOrganizer.exe` executable
-1. Locate the dropdown box on the top right of the newly opened application.
-1. Ensure that `EMW - Push Run To Play` is selected.
-1. Press the `Run` button.
+2. If you have the `Enderal: Forgotten Stories (Special Edition)` game in your Steam Library then activate the `Enderal SE - Steam Time Tracking and Achievements` mod by checking it in the left-hand pane of the now open `Mod Organizer 2` (MO2) application.
+3. Locate the dropdown box on the top right of MO2.
+4. Ensure that `EMW - Push Run To Play` is selected.
+5. Press the `Run` button.
+   
 ## In-Game MCM Options
 
 If an MCM page or a setting on an individual page is not listed then it is either already fully pre-configured by changes I have made or it does not need adjustment from it's default state.
@@ -319,10 +321,15 @@ Much effort has been spent to improve immersion and the combat experience via be
 
 # FAQ
 
-- I'm a 21:9 resolution user and my screen looks weird
+- I'm a 21:9 resolution user and some of my my screens looks weird
   - Search 21x9 in mod organizer and activate all of those mods.
+- I'm not a 21:9 resolution user and some of my screens looks weird
+  - Search 21x9 in mod organizer and de-activate all of those mods.
 - I purchased the house and all kinds of things are floating everywhere?!
   - You need to purchase the furnishings using the thing on the wall by the door.  Once this has been done various tables and such will appear to make everything look as intended.
+- Where's my Achievements?!?!!?
+  - Please return to the [Launch EMW](#launch-emw) section and read the provided instructions.
+
 # Credits and Thanks
 
 - _YOU_ for actually reading the readme. Thanks a ton!!
